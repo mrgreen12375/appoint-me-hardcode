@@ -3,6 +3,27 @@ html {
     background-size: cover;
 }
 
+body {
+	min-height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+header h1 {
+    font-size: 60px;
+}
+
 .launchPage {
     display: flex;
     flex-direction: column;
@@ -36,4 +57,69 @@ html {
 
 .loginLink:hover {
     background-color: rgb(45, 45, 255);
+}
+
+.loginCenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 75px;
+}
+
+.login {
+    width: 38%;
+    color: black;
+    padding: 0px 30px 0px 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.login h2 {
+    font-size: 38px;
+}
+
+.loginLabel {
+    font-size: 22px;
+    margin-bottom: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.loginInput {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 8px;
+}
+
+.loginButton {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    background-color: blue;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.loginButton:hover {
+    background-color: rgb(45, 45, 255);
+    cursor: pointer;
+}
+
+.login a {
+    text-decoration: none;
+    color: blue;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.login a:hover {
+    font-size: 20px;
 }
