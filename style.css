@@ -106,6 +106,8 @@ header h1 {
     font-size: 22px;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    text-align: center;
 }
 
 .loginButton:hover {
@@ -113,13 +115,14 @@ header h1 {
     cursor: pointer;
 }
 
-.login a {
+.logInstead {
     text-decoration: none;
     color: blue;
     font-size: 17px;
     font-weight: bold;
+    margin-top: 20px;
 }
 
-.login a:hover {
+.logInstead:hover {
     font-size: 20px;
 }
