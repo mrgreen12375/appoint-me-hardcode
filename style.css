@@ -65,8 +65,14 @@ nav a:visited:hover {
     color: white;
 }
 
-.welcome {
+.title {
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.date {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .launchPage {
