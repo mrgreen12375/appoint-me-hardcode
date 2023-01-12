@@ -24,6 +24,51 @@ header h1 {
     font-size: 60px;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav ul a{
+    text-decoration: none;
+}
+
+nav li{
+    display: inline-block;
+    color: black;
+    border-bottom: 3px solid black;
+    padding: 0px 7px 0px;
+    margin-right: 50px;
+}
+
+nav li:hover {
+    color: white;
+    background-color: black;
+}
+
+nav a:link {
+    color: black;
+}
+
+nav a:hover {
+    color: white;
+}
+
+nav a:visited {
+    color: black;
+}
+
+nav a:visited:hover {
+    color: white;
+}
+
+.welcome {
+    text-align: center;
+}
+
 .launchPage {
     display: flex;
     flex-direction: column;
