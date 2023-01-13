@@ -70,11 +70,6 @@ nav a:visited:hover {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.date {
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-}
-
 .launchPage {
     display: flex;
     flex-direction: column;
@@ -176,4 +171,34 @@ nav a:visited:hover {
 
 .logInstead:hover {
     font-size: 20px;
+}
+
+.scheduleForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.scheduleContainer {
+    margin: 10px;
+}
+
+.date {
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+}
+
+.label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.messageLabel {
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    bottom: 20px;
 }
